@@ -1,0 +1,11 @@
+type ChimpCard @entity {
+    id: ID!
+    numericId: Int!
+    owner: Bytes!
+    name: String!
+    chimpId: Int!
+    adventureCardId: Int!
+    adventureCardOffset: Int!
+    image: String!
+    edition: Int!
+}
